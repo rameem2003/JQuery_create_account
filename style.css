@@ -67,3 +67,11 @@ form input[type="submit"]{
     display: block;
     cursor: pointer;
 }
+
+
+@media screen and (max-width:420px) {
+    form input[type="submit"]{
+        margin: 0 auto;
+        width: 60%;
+    }
+}
